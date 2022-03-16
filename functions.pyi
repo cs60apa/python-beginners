@@ -22,4 +22,17 @@ math.sqrt(2) / 2.0
 # OutPut
 # 0.7071067811865476
 
+# composite functions
+x = math.sin(degrees / 360.0 * 2 * math.pi)
+
+x = math.exp(math.log(x+1))
+
+print(x)
+# minutes = hours * 60 // correct way of writing composite function
+# hours * 60 = minutes // this is wrong 
+
+# Adding new function
+def print_lyrics():
+    print(" im a dealer and am okay like that")
+    print("I nolonger sleep,just coding and coffee")
 
